@@ -1,0 +1,40 @@
+name = "O71"
+version = "0.1.0"
+defaultTargets = ["O71"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "O71"
+roots = [
+  "O71",
+  "Box",
+  "Coercivity",
+  "Conclusion",
+  "Display",
+  "Domain",
+  "Envelope",
+  "Geometry",
+  "Integrated",
+  "KernelBound",
+  "Likelihood",
+  "Limit",
+  "LowerBound",
+  "Mixture",
+  "Model",
+  "PairEstimate",
+  "PhysicalEvidence",
+  "Quantitative",
+  "Refutation",
+  "Restriction",
+  "Scaling",
+  "Schedule",
+  "Sectors",
+  "Strip",
+  "TheoremA",
+  "TheoremB",
+  "Transport"
+]

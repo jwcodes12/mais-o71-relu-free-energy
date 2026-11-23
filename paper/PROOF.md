@@ -1,5 +1,7 @@
 # A counterexample to MAIS-O71 for continuous-input ReLU networks
 
+> **Rendered version:** [PROOF.pdf](PROOF.pdf). This Markdown file is the LaTeX-in-Markdown source; GitHub's Markdown renderer does not display all of its formulas correctly.
+
 For one input and three hidden units, the sublevel volume has exponent $11/6$ and multiplicity one. At the same parameter and with the same prior, the free energy contains the additional term $-\tfrac13\log\log n$. Thus the leading coefficient agrees in the two asymptotics, but the multiplicity prescribed by the volume gives an incorrect second-order prediction. For each fixed width $H\ge3$ on the zero-truth interior balls defined below, the coefficient of $\log\log n$ is $-(H-2)/3$.
 
 **Claim labels.** (iii) denotes a proved statement and (iv) denotes a conjecture.
